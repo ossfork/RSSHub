@@ -206,6 +206,7 @@ export type RoutePath =
   | `/apple/apps/update/:country/:id/:platform?`
   | `/apple/design`
   | `/apple/exchange_repair/:country?`
+  | `/apple/newsroom`
   | `/apple/podcast/:id/:region?`
   | `/apple/security-releases/:language?`
   | `/appleinsider/:category?`
@@ -566,6 +567,8 @@ export type RoutePath =
   | `/civitai/user/:username/articles`
   | `/ciweimao/chapter/:id`
   | `/cjlu/yjsy/:cate`
+  | `/claude/blog`
+  | `/claude/code/changelog`
   | `/clickme/:site/:grouping/:name`
   | `/cline/blog`
   | `/cloudflarestatus/`
@@ -614,7 +617,7 @@ export type RoutePath =
   | `/codefather/questions/:sort?`
   | `/codeforces/contests`
   | `/codeforces/recent-actions/:minrating?`
-  | `/cognition/blog`
+  | `/cognition/blog/:category?`
   | `/cohere/blog`
   | `/coindesk/consensus-magazine`
   | `/coindesk/news`
@@ -625,6 +628,7 @@ export type RoutePath =
   | `/collabo-cafe/tag/:tag`
   | `/comic-fuz/magazine/:id`
   | `/comic-fuz/manga/:id`
+  | `/comic-walker/manga/:id`
   | `/comicat/search/:keyword`
   | `/comicskingdom/:name`
   | `/commonhealth/`
@@ -688,8 +692,8 @@ export type RoutePath =
   | `/cupl/jwc`
   | `/curiouscat/user/:id`
   | `/curius/links/:name`
-  | `/cursor/blog/:topic?`
-  | `/cursor/changelog`
+  | `/cursor/blog/:topic?/:locale?`
+  | `/cursor/changelog/:locale?`
   | `/cw/author/:channel`
   | `/cw/master/:channel`
   | `/cw/sub/:channel`
@@ -753,6 +757,7 @@ export type RoutePath =
   | `/devolverdigital/blog`
   | `/devtrium/`
   | `/dewu/declaration/:categoryId?`
+  | `/dewu/techblog/:categoryId?`
   | `/dgjyw*`
   | `/dgtle/article/:id?/:pushed?`
   | `/dgtle/feed`
@@ -1502,6 +1507,7 @@ export type RoutePath =
   | `/imiker/ask/jinghua`
   | `/immich/cursed-knowledge`
   | `/imop/tianshu`
+  | `/inceptionlabs/blog`
   | `/indianexpress/section/:id{.+}?`
   | `/indiansinkuwait/latest`
   | `/indienova/:type`
@@ -1758,6 +1764,7 @@ export type RoutePath =
   | `/lkong/forum/:id?/:digest?`
   | `/lkong/thread/:id`
   | `/lmu/jobs`
+  | `/locals/content/:community/:option1?/:option2?`
   | `/lofter/collection/:collectionID`
   | `/lofter/tag/:name?/:type?`
   | `/lofter/user/:name?`
@@ -2196,6 +2203,7 @@ export type RoutePath =
   | `/people/liuyan/:id/:state?`
   | `/people/xjpjh/:keyword?/:year?`
   | `/peopo/topic/:topicId?`
+  | `/perplexity/blog`
   | `/perplexity/changelog`
   | `/phoronix/:category?/:topic?`
   | `/pianyivps/`
@@ -2250,12 +2258,12 @@ export type RoutePath =
   | `/pnas/:topicPath{.+}?`
   | `/podwise/explore`
   | `/podwise/explore/:type`
-  | `/pornhub/category/:caty`
-  | `/pornhub/category_url/:url?/:language?`
-  | `/pornhub/model/:username/:language?/:sort?`
-  | `/pornhub/pornstar/:username/:language?/:sort?`
-  | `/pornhub/search/:keyword`
-  | `/pornhub/users/:username/:language?`
+  | `/pornhub/category/:caty/:img?`
+  | `/pornhub/category_url/:url?/:language?/:img?`
+  | `/pornhub/model/:username/:language?/:sort?/:img?`
+  | `/pornhub/pornstar/:username/:language?/:sort?/:img?`
+  | `/pornhub/search/:keyword/:img?`
+  | `/pornhub/users/:username/:language?/:img?`
   | `/postman/release-notes`
   | `/priconne-redive/news/:server?`
   | `/producereport/:category{.+}?`
@@ -2325,6 +2333,7 @@ export type RoutePath =
   | `/qq/kg/:userId`
   | `/qq/kg/reply/:playId`
   | `/qq/lol/news/:category?`
+  | `/qq/news/:uid/:detail?`
   | `/qq/pd/guild/:id/:sub?/:sort?`
   | `/qq/weread/:category`
   | `/qq88/:category?`
@@ -2461,6 +2470,7 @@ export type RoutePath =
   | `/sdu/wh/jwc/:column?`
   | `/sdu/wh/news/:column?`
   | `/sdu/ygb/:type?`
+  | `/sdu/yz/:type?`
   | `/sdust/yjsy/zhaosheng/:id?`
   | `/sdzk/:bcid?/:cid?`
   | `/sec-in/`
@@ -2823,6 +2833,7 @@ export type RoutePath =
   | `/tvb/news/:category?/:language?`
   | `/tver/series/:id`
   | `/tvtropes/featured/:category?`
+  | `/tw-nongmu/market`
   | `/twitch/live/:login`
   | `/twitch/schedule/:login`
   | `/twitch/video/:login/:filter?`
@@ -3084,6 +3095,7 @@ export type RoutePath =
   | `/xueqiu/user/:id/:type?`
   | `/xueqiu/user_stock/:id`
   | `/xunhupay/blog`
+  | `/xupt/jyc/:type?`
   | `/xwenming/:category?`
   | `/xys/new`
   | `/xyu/index/tzgg`
@@ -3191,7 +3203,7 @@ export type RoutePath =
   | `/zhiy/letters/:author`
   | `/zhiy/posts/:author`
   | `/zhizhuan100/analytic`
-  | `/zhonglun/research/article/:language{[a-zA-Z0-9-]+}?`
+  | `/zhonglun/research/article/:language?`
   | `/zhubai/posts/:id`
   | `/zhubai/top20`
   | `/zhujiceping/`
