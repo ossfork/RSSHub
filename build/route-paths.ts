@@ -1505,7 +1505,6 @@ export type RoutePath =
   | `/huxiu/search/:keyword`
   | `/huxiu/tag/:id`
   | `/hyperdash/top-traders`
-  | `/hypergryph/arknights/announce/:platform?/:group?`
   | `/hypergryph/arknights/arktca`
   | `/hypergryph/arknights/japan`
   | `/hypergryph/arknights/news/:group?`
@@ -2272,7 +2271,8 @@ export type RoutePath =
   | `/penguin-random-house/articles`
   | `/penguin-random-house/the-read-down`
   | `/people/:site?/:category{.+}?`
-  | `/people/liuyan/:id/:state?`
+  | `/people/liuyan/:id?/:state?`
+  | `/people/paper/:page?`
   | `/people/xjpjh/:keyword?/:year?`
   | `/peopo/topic/:topicId?`
   | `/perplexity/blog`
