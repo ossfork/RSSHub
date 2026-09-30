@@ -93,6 +93,9 @@
   "/atptour/news/:lang?": [
     "LM1207"
   ],
+  "/autotrader/:query": [
+    "HenryQW"
+  ],
   "/azurlane/news/:server/:type?": [
     "AnitsuriW"
   ],
@@ -463,9 +466,6 @@
   ],
   "/rebase/geekdaily": [
     "gaoyifan"
-  ],
-  "/rockstargames/socialclub/events/:game?": [
-    "kookxiang"
   ],
   "/rss3/:account/:network?/:tag?": [
     "DIYgod",
@@ -903,9 +903,6 @@
   "/zyw/hot/:site?": [
     "nczitzk"
   ],
-  "/autotrader/:query": [
-    "HenryQW"
-  ],
   "/bt0/mv/:number/:domain?": [
     "miemieYaho"
   ],
@@ -1040,9 +1037,6 @@
   "/fantia/user/:id": [
     "nczitzk"
   ],
-  "/fortnite/news/:options?": [
-    "lyqluis"
-  ],
   "/gamer520/:category?/:order?": [
     "xzzpig"
   ],
@@ -1176,6 +1170,12 @@
   "/qutoutiao/category/:cid": [
     "alphardex",
     "LogicJake"
+  ],
+  "/rockstargames/socialclub/events/:game?": [
+    "kookxiang"
+  ],
+  "/rockstargames/newswire": [
+    "dapexyz"
   ],
   "/skebetter/illust/:type": [
     "SnowAgar25"
@@ -2021,47 +2021,6 @@
   ],
   "/thewirehindi/": [
     "Rjnishant530"
-  ],
-  "/twitter/trends/:woeid?": [
-    "sakamossan"
-  ],
-  "/twitter/home_latest/:routeParams?": [
-    "DIYgod",
-    "CaoMeiYouRen"
-  ],
-  "/twitter/home/:routeParams?": [
-    "DIYgod",
-    "CaoMeiYouRen"
-  ],
-  "/twitter/keyword/:keyword/:routeParams?": [
-    "DIYgod",
-    "yindaheng98",
-    "Rongronggg9",
-    "pseudoyu"
-  ],
-  "/twitter/likes/:id/:routeParams?": [
-    "xyqfer"
-  ],
-  "/twitter/list/:id/:routeParams?": [
-    "DIYgod",
-    "xyqfer",
-    "pseudoyu"
-  ],
-  "/twitter/media/:id/:routeParams?": [
-    "DIYgod",
-    "yindaheng98",
-    "Rongronggg9"
-  ],
-  "/twitter/tweet/:id/status/:status/:original?": [
-    "LarchLiu",
-    "Rongronggg9"
-  ],
-  "/twitter/user/:id/:routeParams?": [
-    "DIYgod",
-    "yindaheng98",
-    "Rongronggg9",
-    "CaoMeiYouRen",
-    "pseudoyu"
   ],
   "/utgd/category/:category?": [
     "nczitzk"
@@ -4676,6 +4635,9 @@
   "/fosshub/:id": [
     "nczitzk"
   ],
+  "/fraenkelgallery/:type?": [
+    "IvanWng97"
+  ],
   "/freecomputerbooks/:category?": [
     "cubroe"
   ],
@@ -5332,6 +5294,9 @@
   "/hubu/zhxy/:category{.+}?": [
     "nczitzk"
   ],
+  "/huggingface/datasets/:author": [
+    "Cod1doc"
+  ],
   "/huggingface/activity/:user/likes": [
     "dotwee"
   ],
@@ -5885,6 +5850,9 @@
   "/kmust/jwc/:type?": [
     "geekrainy"
   ],
+  "/komica/:host/:board/:category?": [
+    "TonyRL"
+  ],
   "/kongfz/people/:id": [
     "nczitzk"
   ],
@@ -5896,6 +5864,9 @@
   ],
   "/koreaherald/:category{.+}?": [
     "quiniapiezoelectricity"
+  ],
+  "/kosmofoto/:category?": [
+    "IvanWng97"
   ],
   "/kovidgoyal/kitty/changelog": [
     "xbot"
@@ -7178,6 +7149,9 @@
   ],
   "/perplexity/changelog": [
     "xbot"
+  ],
+  "/petapixel/:category?": [
+    "IvanWng97"
   ],
   "/peterwunder/achievements": [
     "LinxHex"
@@ -8519,6 +8493,9 @@
     "ninboy",
     "pseudoyu"
   ],
+  "/threads/:user/post/:id/:routeParams?": [
+    "TonyRL"
+  ],
   "/threads/search/:keyword/:routeParams?": [
     "TonyRL"
   ],
@@ -8745,8 +8722,9 @@
   "/u9a9/search/:keyword/:preview?": [
     "TonyRL"
   ],
-  "/uber/blog/:compat?": [
-    "hulb"
+  "/uber/blog/:category?": [
+    "hulb",
+    "zhsama"
   ],
   "/ucas/ai": [
     "shengmaosu"
@@ -9297,6 +9275,9 @@
   "/xmanhua/:uid": [
     "Ye11"
   ],
+  "/xmlcom/": [
+    "AboutRSS"
+  ],
   "/xmnn/epaper/:id?": [
     "nczitzk"
   ],
@@ -9340,6 +9321,9 @@
   ],
   "/xueqiu/hots": [
     "hillerliao"
+  ],
+  "/xueqiu/status/:uid/:id": [
+    "ruesin"
   ],
   "/xueqiu/stock_info/:id/:type?": [
     "YuYang"
@@ -9936,10 +9920,10 @@
   "/bilibili/mall/new/:category?": [
     "DIYgod"
   ],
-  "/bilibili/readlist/:listid": [
+  "/bilibili/manga/update/:comicid": [
     "hoilc"
   ],
-  "/bilibili/manga/update/:comicid": [
+  "/bilibili/readlist/:listid": [
     "hoilc"
   ],
   "/bilibili/bangumi/media/:mediaid/:embed?": [
@@ -10293,6 +10277,9 @@
   ],
   "/dongqiudi/top_news/:id?": [
     "HendricksZheng"
+  ],
+  "/dr/:category?": [
+    "cufezhusy"
   ],
   "/dribbble/keyword/:keyword": [
     "DIYgod",
@@ -12280,6 +12267,10 @@
   "/zhihu/people/pins/:id": [
     "xyqfer"
   ],
+  "/zhihu/daily": [
+    "DHPO",
+    "pseudoyu"
+  ],
   "/zhihu/xhu/people/answers/:hexId": [
     "JimenezLi"
   ],
@@ -12294,18 +12285,11 @@
     "Colin-XKL",
     "Fatpandac"
   ],
-  "/zhihu/daily": [
-    "DHPO",
-    "pseudoyu"
-  ],
   "/zhihu/weekly": [
     "LogicJake"
   ],
   "/zhihu/xhu/zhuanlan/:id": [
     "JimenezLi"
-  ],
-  "/zhihu/zhuanlan/:id": [
-    "DIYgod"
   ],
   "/zhihu/people/activities/:id": [
     "DIYgod"
@@ -12343,6 +12327,12 @@
   "/zhihu/xhu/topic/:topicId": [
     "JimenezLi"
   ],
+  "/zhihu/zhuanlan/:id": [
+    "DIYgod"
+  ],
+  "/czechstepbystep/kratke-ceske-zpravy": [
+    "cmp0xff"
+  ],
   "/finology/bullets": [
     "Rjnishant530"
   ],
@@ -12354,6 +12344,9 @@
   ],
   "/finology/tag/:topic": [
     "Rjnishant530"
+  ],
+  "/fortnite/news/:options?": [
+    "lyqluis"
   ],
   "/pixiv/user/bookmarks/:id": [
     "EYHN"
@@ -12450,9 +12443,6 @@
   "/youtube/c/:username/:embed?": [
     "TonyRL"
   ],
-  "/youtube/live/:username/:embed?": [
-    "sussurr127"
-  ],
   "/youtube/charts/:category?/:country?/:embed?": [
     "TonyRL"
   ],
@@ -12463,11 +12453,59 @@
     "DIYgod",
     "pseudoyu"
   ],
+  "/youtube/live/:username/:embed?": [
+    "sussurr127",
+    "ouuan"
+  ],
   "/youtube/playlist/:id/:embed?": [
     "HenryQW"
   ],
+  "/youtube/shows/:username": [
+    "TonyRL"
+  ],
   "/youtube/user/:username/:routeParams?": [
     "DIYgod",
+    "pseudoyu"
+  ],
+  "/twitter/trends/:woeid?": [
+    "sakamossan"
+  ],
+  "/twitter/home_latest/:routeParams?": [
+    "DIYgod",
+    "CaoMeiYouRen"
+  ],
+  "/twitter/home/:routeParams?": [
+    "DIYgod",
+    "CaoMeiYouRen"
+  ],
+  "/twitter/keyword/:keyword/:routeParams?": [
+    "DIYgod",
+    "yindaheng98",
+    "Rongronggg9",
+    "pseudoyu"
+  ],
+  "/twitter/likes/:id/:routeParams?": [
+    "xyqfer"
+  ],
+  "/twitter/list/:id/:routeParams?": [
+    "DIYgod",
+    "xyqfer",
+    "pseudoyu"
+  ],
+  "/twitter/media/:id/:routeParams?": [
+    "DIYgod",
+    "yindaheng98",
+    "Rongronggg9"
+  ],
+  "/twitter/tweet/:id/status/:status/:original?": [
+    "LarchLiu",
+    "Rongronggg9"
+  ],
+  "/twitter/user/:id/:routeParams?": [
+    "DIYgod",
+    "yindaheng98",
+    "Rongronggg9",
+    "CaoMeiYouRen",
     "pseudoyu"
   ],
   "/economist/global-business-review/:language?": [
